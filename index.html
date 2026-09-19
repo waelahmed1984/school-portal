@@ -642,6 +642,10 @@
 
         // Modal Handlers
         function openModal(id) {
+            if (id === 6) {
+    window.location.href = "records/leadership/";
+    return;
+}
             const record = domainsData.find(item => item.id === id);
             if (!record) return;
 
