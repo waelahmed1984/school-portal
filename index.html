@@ -105,7 +105,7 @@
                         </div>
                         <!-- Simulated Ministry Emblem -->
                         <div class="flex items-center gap-1.5 text-brand-primary">
-                            <i class="fa-solid fa-tree-city text-2xl"></i>
+                            <i class="fa-solid fa-circle-nodes text-3xl"></i>
                             <div class="flex flex-col gap-0.5">
                                 <span class="w-1.5 h-1.5 bg-brand-primary rounded-full"></span>
                                 <span class="w-1.5 h-1.5 bg-brand-teal rounded-full"></span>
@@ -116,155 +116,38 @@
                 </div>
             </div>
 
-            <!-- Primary Navigation Bar -->
+            <!-- Primary Navigation Bar: Home only -->
             <nav class="bg-brand-dark text-white shadow-md">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div class="flex items-center justify-between h-14">
-                        <div class="flex items-center space-x-1 space-x-reverse overflow-x-auto py-2">
-                            <a href="#" class="bg-brand-primary px-4 py-2 rounded-lg text-sm font-bold flex items-center gap-2 hover:bg-brand-teal transition">
-                                <i class="fa-solid fa-house"></i>
-                                <span>الرئيسية</span>
-                            </a>
-                            <div class="relative group">
-                                <button class="px-4 py-2 rounded-lg text-sm font-medium hover:bg-brand-primary/60 transition flex items-center gap-2">
-                                    <i class="fa-solid fa-folder-open"></i>
-                                    <span>السجلات المدرسية</span>
-                                    <i class="fa-solid fa-chevron-down text-xs opacity-70"></i>
-                                </button>
-                                <!-- Dropdown menu -->
-                                <div class="absolute right-0 top-full hidden group-hover:block w-56 bg-white text-gray-800 rounded-lg shadow-xl py-2 z-50 border border-gray-100">
-                                    <a href="#" class="block px-4 py-2 text-sm hover:bg-brand-lightTeal hover:text-brand-primary transition">سجلات القيادة المدرسية</a>
-                                    <a href="#" class="block px-4 py-2 text-sm hover:bg-brand-lightTeal hover:text-brand-primary transition">سجلات المعلمين والتعليم</a>
-                                    <a href="#" class="block px-4 py-2 text-sm hover:bg-brand-lightTeal hover:text-brand-primary transition">سجلات الشؤون الطلابية</a>
-                                </div>
-                            </div>
-                            <a href="#" class="px-4 py-2 rounded-lg text-sm font-medium hover:bg-brand-primary/60 transition flex items-center gap-2 whitespace-nowrap">
-                                <i class="fa-solid fa-file-shield"></i>
-                                <span>الشواهد</span>
-                            </a>
-                            <a href="#" class="px-4 py-2 rounded-lg text-sm font-medium hover:bg-brand-primary/60 transition flex items-center gap-2 whitespace-nowrap">
-                                <i class="fa-solid fa-chart-line"></i>
-                                <span>التقارير والإحصائيات</span>
-                            </a>
-                            <a href="#" class="px-4 py-2 rounded-lg text-sm font-medium hover:bg-brand-primary/60 transition flex items-center gap-2 whitespace-nowrap">
-                                <i class="fa-solid fa-users"></i>
-                                <span>من نحن</span>
-                            </a>
-                            <a href="#" class="px-4 py-2 rounded-lg text-sm font-medium hover:bg-brand-primary/60 transition flex items-center gap-2 whitespace-nowrap">
-                                <i class="fa-solid fa-envelope"></i>
-                                <span>اتصل بنا</span>
-                            </a>
-                        </div>
+                    <div class="flex items-center h-14">
+                        <a href="index.html" class="bg-brand-primary px-4 py-2 rounded-lg text-sm font-bold flex items-center gap-2 hover:bg-brand-teal transition">
+                            <i class="fa-solid fa-house"></i>
+                            <span>الرئيسية</span>
+                        </a>
                     </div>
                 </div>
             </nav>
         </header>
 
-        <!-- Hero & Vision Section -->
-        <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-stretch">
-                
-                <!-- Main Portal Banner (2 Columns) -->
-                <div class="lg:col-span-2 relative rounded-2xl overflow-hidden shadow-lg border border-gray-200 min-h-[220px] flex items-center bg-slate-800">
-                    <!-- Background School Image Overlay -->
-                    <img src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80" alt="School Banner" class="absolute inset-0 w-full h-full object-cover opacity-25">
-                    <div class="absolute inset-0 hero-gradient"></div>
-                    
-                    <div class="relative z-10 p-6 md:p-8 text-white w-full flex flex-col justify-center">
-                        <div class="flex items-center gap-3 mb-2">
-                            <div class="p-3 bg-white/10 rounded-2xl backdrop-blur-md">
-                                <i class="fa-solid fa-book-open-reader text-3xl text-emerald-300"></i>
-                            </div>
-                            <div>
-                                <h2 class="text-2xl md:text-3xl font-black tracking-wide">البوابة الرقمية</h2>
-                                <p class="text-emerald-200 font-semibold text-lg">للسجلات والشواهد المدرسية</p>
-                            </div>
-                        </div>
-                        <p class="text-sm md:text-base text-gray-100 mt-2 font-light">
-                            توثيق ... تنظيم ... جودة ... نحو التميز المؤسسي
-                        </p>
-                        <div class="mt-4 inline-flex items-center self-start bg-white/20 backdrop-blur-md px-4 py-1.5 rounded-full border border-white/30 text-xs md:text-sm font-bold text-white">
-                            « من التوثيق إلى التميز »
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Vision Card (1 Column) -->
-                <div class="bg-gradient-to-br from-cyan-50 to-teal-100/60 rounded-2xl p-6 border border-teal-200/60 shadow-sm flex flex-col justify-between relative overflow-hidden">
-                    <div class="absolute top-2 left-2 text-teal-200/50 -rotate-12 pointer-events-none">
-                        <i class="fa-solid fa-bullseye text-9xl"></i>
-                    </div>
-                    <div>
-                        <div class="flex items-center justify-between mb-3">
-                            <div class="flex items-center gap-2">
-                                <div class="w-10 h-10 rounded-xl bg-teal-600 text-white flex items-center justify-center shadow-md">
-                                    <i class="fa-solid fa-bullseye text-xl"></i>
-                                </div>
-                                <h3 class="text-xl font-bold text-teal-900">رؤيتنا</h3>
-                            </div>
-                            <span class="text-xs bg-teal-200/80 text-teal-900 font-bold px-2.5 py-1 rounded-full">2026</span>
-                        </div>
-                        <p class="text-teal-800 font-medium text-sm md:text-base leading-relaxed mt-2">
-                            بيئة تعليمية متميزة لبناء جيل المستقبل، ترتكز على معايير الجودة والتحول الرقمي المتكامل.
-                        </p>
-                    </div>
-                    <div class="mt-4 pt-3 border-t border-teal-200/80 flex items-center justify-between text-xs font-bold text-teal-700">
-                        <span>التميز المؤسسي والتطوير المستمر</span>
-                        <i class="fa-solid fa-arrow-left"></i>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
         <!-- Quick Stats Cards Section -->
         <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                
-                <!-- Stat 1 -->
                 <div class="bg-white rounded-2xl p-5 border border-gray-100 custom-shadow flex items-center justify-between">
-                    <div>
-                        <span class="text-xs text-gray-500 font-bold block mb-1">سجل مدرسي</span>
-                        <span class="text-2xl md:text-3xl font-black text-brand-dark">18</span>
-                    </div>
-                    <div class="w-12 h-12 rounded-xl bg-sky-50 text-sky-600 flex items-center justify-center text-xl">
-                        <i class="fa-solid fa-folder-tree"></i>
-                    </div>
+                    <div><span class="text-xs text-gray-500 font-bold block mb-1">عدد السجلات</span><span class="text-2xl md:text-3xl font-black text-brand-dark">36</span></div>
+                    <div class="w-12 h-12 rounded-xl bg-sky-50 text-sky-600 flex items-center justify-center text-xl"><i class="fa-solid fa-folder-tree"></i></div>
                 </div>
-
-                <!-- Stat 2 -->
                 <div class="bg-white rounded-2xl p-5 border border-gray-100 custom-shadow flex items-center justify-between">
-                    <div>
-                        <span class="text-xs text-gray-500 font-bold block mb-1">مؤشر مدرسي</span>
-                        <span class="text-2xl md:text-3xl font-black text-brand-dark">+250</span>
-                    </div>
-                    <div class="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center text-xl">
-                        <i class="fa-solid fa-users-gear"></i>
-                    </div>
+                    <div><span class="text-xs text-gray-500 font-bold block mb-1">عدد الطلاب</span><span class="text-2xl md:text-3xl font-black text-brand-dark">318</span></div>
+                    <div class="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center text-xl"><i class="fa-solid fa-users"></i></div>
                 </div>
-
-                <!-- Stat 3 -->
                 <div class="bg-white rounded-2xl p-5 border border-gray-100 custom-shadow flex items-center justify-between">
-                    <div>
-                        <span class="text-xs text-gray-500 font-bold block mb-1">شاهد ووثيقة</span>
-                        <span class="text-2xl md:text-3xl font-black text-brand-dark">+2,000</span>
-                    </div>
-                    <div class="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center text-xl">
-                        <i class="fa-solid fa-file-lines"></i>
-                    </div>
+                    <div><span class="text-xs text-gray-500 font-bold block mb-1">عدد المعلمين</span><span class="text-2xl md:text-3xl font-black text-brand-dark">25</span></div>
+                    <div class="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center text-xl"><i class="fa-solid fa-chalkboard-user"></i></div>
                 </div>
-
-                <!-- Stat 4 -->
                 <div class="bg-white rounded-2xl p-5 border border-gray-100 custom-shadow flex items-center justify-between border-r-4 border-r-emerald-500">
-                    <div>
-                        <span class="text-xs text-gray-500 font-bold block mb-1">نسبة اكتمال الشواهد</span>
-                        <span class="text-2xl md:text-3xl font-black text-emerald-600">97%</span>
-                    </div>
-                    <div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-xl">
-                        <i class="fa-solid fa-circle-check"></i>
-                    </div>
+                    <div><span class="text-xs text-gray-500 font-bold block mb-1">عدد الإداريين</span><span class="text-2xl md:text-3xl font-black text-emerald-600">11</span></div>
+                    <div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-xl"><i class="fa-solid fa-user-tie"></i></div>
                 </div>
-
             </div>
         </section>
 
@@ -284,10 +167,11 @@
                     <div class="lg:col-span-3">
                         <select id="domainFilter" class="w-full px-3 py-2.5 rounded-xl border border-gray-200 text-sm focus:outline-none focus:border-brand-primary text-gray-700 bg-white">
                             <option value="all">جميع المجالات</option>
-                            <option value="educational">المجالات التعليمية</option>
-                            <option value="administrative">المجالات الإدارية</option>
-                            <option value="student">مجالات الطلاب والرعاية</option>
-                        </select>
+                             <option value="administration">الإدارة المدرسية</option>
+                             <option value="teaching">التعليم والتعلم</option>
+                             <option value="outcomes">نواتج التعلم</option>
+                             <option value="environment">البيئة المدرسية</option>
+                         </select>
                     </div>
 
                     <!-- Filter 2: Records -->
@@ -316,13 +200,13 @@
             <div class="flex items-center justify-between mb-4">
                 <h3 class="text-lg font-bold text-gray-800 flex items-center gap-2">
                     <i class="fa-solid fa-layer-group text-brand-primary"></i>
-                    <span>مجالات العمل المدرسية والسجلات</span>
+                    <span>السجلات المدرسية</span>
                 </h3>
-                <span id="resultsCount" class="text-xs font-semibold bg-gray-200 text-gray-700 px-3 py-1 rounded-full">18 مجال متوفر</span>
+                <span id="resultsCount" class="text-xs font-semibold bg-gray-200 text-gray-700 px-3 py-1 rounded-full">36 سجل متوفر</span>
             </div>
 
             <!-- Dynamic Grid -->
-            <div id="cardsContainer" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4">
+            <div id="cardsContainer" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4">
                 <!-- Cards will be populated by JS for dynamic search/filter or statically loaded for perfect match -->
             </div>
         </main>
@@ -384,14 +268,15 @@
                 <!-- School Info -->
                 <div>
                     <h4 class="text-lg font-bold text-white mb-1">ثانوية الأمير محمد بن سعود</h4>
-                    <p class="text-xs text-gray-300">الإدارة العامة للتعليم بمنطقة ...</p>
+                    <p class="text-xs text-gray-300">الإدارة العامة للتعليم بمنطقة الباحة</p>
                     <p class="text-xs text-emerald-400 font-medium mt-1">جميع الحقوق محفوظة © 2026</p>
+                    <p class="text-xs text-emerald-300 font-bold mt-1">أ / وائل بن أحمد</p>
                 </div>
 
                 <!-- Ministry Badge -->
                 <div class="flex flex-col items-center justify-center">
                     <div class="flex items-center gap-2 text-xl font-bold">
-                        <i class="fa-solid fa-graduation-cap text-teal-400"></i>
+                        <i class="fa-solid fa-circle-nodes text-teal-400"></i>
                         <span>وزارة التعليم</span>
                     </div>
                     <span class="text-[11px] text-gray-400 mt-1">Ministry of Education</span>
@@ -419,165 +304,327 @@
         const domainsData = [
             {
                 id: 1,
-                title: "المعلمين والتطوير المهني",
-                evidenceCount: 110,
+                title: "مكتب المدير",
+                evidenceCount: 0,
                 colorClass: "bg-indigo-50 border-indigo-200 text-indigo-700",
-                iconClass: "fa-solid fa-user-graduate",
-                category: "educational",
-                evidenceList: ["خطط التطوير المهني", "ورش العمل والدورات التدريبية", "تقارير المجتمعات المهنية"]
+                iconClass: "fa-solid fa-user-tie",
+                category: "administration",
+                evidenceList: []
             },
             {
                 id: 2,
-                title: "نواتج التعلم والتحسين",
-                evidenceCount: 98,
+                title: "برامج التوجيه الطلابي",
+                evidenceCount: 0,
                 colorClass: "bg-blue-50 border-blue-200 text-blue-700",
-                iconClass: "fa-solid fa-chart-column",
-                category: "educational",
-                evidenceList: ["تحليل نتائج الاختبارات الوطنية", "خطط علاج وإثراء الطلاب", "مؤشرات التحصيل العلمي"]
+                iconClass: "fa-solid fa-users",
+                category: "environment",
+                evidenceList: []
             },
             {
                 id: 3,
-                title: "التعليم والتعلم",
-                evidenceCount: 132,
+                title: "المسائلات والتنبيهات",
+                evidenceCount: 0,
                 colorClass: "bg-purple-50 border-purple-200 text-purple-700",
-                iconClass: "fa-solid fa-book-open",
-                category: "educational",
-                evidenceList: ["الزيارات الصفية والتقويم", "استراتيجيات التدريس الحديثة", "تفعيل التقنية في التعليم"]
+                iconClass: "fa-solid fa-file-circle-exclamation",
+                category: "administration",
+                evidenceList: []
             },
             {
                 id: 4,
-                title: "التحسين والتطوير",
-                evidenceCount: 95,
+                title: "حقوق المتعلمين وحمايتهم",
+                evidenceCount: 0,
                 colorClass: "bg-teal-50 border-teal-200 text-teal-700",
-                iconClass: "fa-solid fa-gears",
-                category: "administrative",
-                evidenceList: ["خطة التحسين التشغيلية", "مبادرات التطوير المدرسي", "قياس أثر التطوير"]
+                iconClass: "fa-solid fa-shield-halved",
+                category: "environment",
+                evidenceList: []
             },
             {
                 id: 5,
                 title: "التقويم الذاتي",
-                evidenceCount: 88,
+                evidenceCount: 0,
                 colorClass: "bg-fuchsia-50 border-fuchsia-200 text-fuchsia-700",
                 iconClass: "fa-solid fa-clipboard-check",
-                category: "administrative",
-                evidenceList: ["تقرير التقويم الذاتي السنوي", "استبانات رضا المستفيدين", "بطاقات الأداء المدرسي"]
+                category: "administration",
+                evidenceList: []
             },
             {
                 id: 6,
-                title: "القيادة المدرسية",
-                evidenceCount: 72,
+                title: "الاجتماعات",
+                evidenceCount: 0,
                 colorClass: "bg-sky-50 border-sky-200 text-sky-700",
-                iconClass: "fa-solid fa-users-gear",
-                category: "administrative",
-                evidenceList: ["الخطة التشغيلية للمدرسة", "توزيع المهام واللجان", "تقارير المتابعة الإدارية"]
+                iconClass: "fa-solid fa-people-group",
+                category: "administration",
+                evidenceList: []
             },
             {
                 id: 7,
-                title: "الأنشطة والمبادرات",
-                evidenceCount: 102,
+                title: "الخطة التطويرية",
+                evidenceCount: 0,
                 colorClass: "bg-emerald-50 border-emerald-200 text-emerald-700",
-                iconClass: "fa-solid fa-person-running",
-                category: "student",
-                evidenceList: ["خطة الأنشطة الطلابية", "المشاركات والمسابقات", "توثيق المبادرات المدرسية"]
+                iconClass: "fa-solid fa-chart-line",
+                category: "administration",
+                evidenceList: []
             },
             {
                 id: 8,
-                title: "التوجيه والإرشاد الطلابي",
-                evidenceCount: 83,
+                title: "التواصل والشراكة المجتمعية",
+                evidenceCount: 0,
                 colorClass: "bg-cyan-50 border-cyan-200 text-cyan-700",
-                iconClass: "fa-solid fa-signs-post",
-                category: "student",
-                evidenceList: ["برامج التوجيه والتعزيز", "متابعة الحالات الطلابية", "لقاءات أولياء الأمور"]
+                iconClass: "fa-solid fa-handshake",
+                category: "environment",
+                evidenceList: []
             },
             {
                 id: 9,
-                title: "حقوق المتعلمين وحمايتهم",
-                evidenceCount: 69,
-                colorClass: "bg-blue-50 border-blue-200 text-blue-700",
-                iconClass: "fa-solid fa-shield-halved",
-                category: "student",
-                evidenceList: ["برامج الأمان الأسري والمدرسي", "قواعد السلوك والمواظبة", "توعية الطلاب بالحقوق"]
+                title: "القدرات والتحصيلي",
+                evidenceCount: 0,
+                colorClass: "bg-amber-50 border-amber-200 text-amber-700",
+                iconClass: "fa-solid fa-graduation-cap",
+                category: "outcomes",
+                evidenceList: []
             },
             {
                 id: 10,
-                title: "الانضباط والمواظبة",
-                evidenceCount: 76,
-                colorClass: "bg-emerald-50 border-emerald-200 text-emerald-700",
-                iconClass: "fa-solid fa-shield-cat",
-                category: "student",
-                evidenceList: ["إحصائيات الحضور والغياب", "برامج تحفيز الانضباط", "التواصل مع أولياء الأمور"]
+                title: "الانضباط المدرسي والمواظبة",
+                evidenceCount: 0,
+                colorClass: "bg-rose-50 border-rose-200 text-rose-700",
+                iconClass: "fa-solid fa-clock",
+                category: "environment",
+                evidenceList: []
             },
             {
                 id: 11,
-                title: "البيئة المدرسية",
-                evidenceCount: 84,
-                colorClass: "bg-sky-50 border-sky-200 text-sky-700",
-                iconClass: "fa-solid fa-building-user",
-                category: "administrative",
-                evidenceList: ["تقارير الأمن والسلامة", "صيانة المرافق المدرسية", "النظافة والبيئة الصحية"]
+                title: "المخالفات السلوكية",
+                evidenceCount: 0,
+                colorClass: "bg-orange-50 border-orange-200 text-orange-700",
+                iconClass: "fa-solid fa-triangle-exclamation",
+                category: "environment",
+                evidenceList: []
             },
             {
                 id: 12,
-                title: "الطلاب",
-                evidenceCount: 120,
-                colorClass: "bg-amber-50 border-amber-200 text-amber-700",
-                iconClass: "fa-solid fa-user-group",
-                category: "student",
-                evidenceList: ["سجلات القبول والتسجيل", "قوائم الفصول المدرسية", "سجلات الموهوبين والتربية الخاصة"]
+                title: "استراتيجيات التدريس",
+                evidenceCount: 0,
+                colorClass: "bg-indigo-50 border-indigo-200 text-indigo-700",
+                iconClass: "fa-solid fa-chalkboard-user",
+                category: "teaching",
+                evidenceList: []
             },
             {
                 id: 13,
-                title: "التكريم والتحفيز",
-                evidenceCount: 66,
-                colorClass: "bg-amber-50 border-amber-200 text-amber-700",
-                iconClass: "fa-solid fa-trophy",
-                category: "student",
-                evidenceList: ["سجل المتفوقين والمتميزين", "حفلات التكريم الدورية", "لوائح الجوائز والمكافآت"]
+                title: "التطوع",
+                evidenceCount: 0,
+                colorClass: "bg-blue-50 border-blue-200 text-blue-700",
+                iconClass: "fa-solid fa-hand-holding-heart",
+                category: "environment",
+                evidenceList: []
             },
             {
                 id: 14,
-                title: "التطوع",
-                evidenceCount: 41,
-                colorClass: "bg-teal-50 border-teal-200 text-teal-700",
-                iconClass: "fa-solid fa-hand-holding-heart",
-                category: "student",
-                evidenceList: ["الفرص التطوعية المعتمدة", "ساعات التطوع للطلاب والمعلمين", "معرض المبادرات التطوعية"]
+                title: "تكريم الطلاب والمعلمين",
+                evidenceCount: 0,
+                colorClass: "bg-purple-50 border-purple-200 text-purple-700",
+                iconClass: "fa-solid fa-trophy",
+                category: "environment",
+                evidenceList: []
             },
             {
                 id: 15,
-                title: "القدرات والتحصيلي",
-                evidenceCount: 52,
-                colorClass: "bg-indigo-50 border-indigo-200 text-indigo-700",
-                iconClass: "fa-solid fa-chart-line",
-                category: "educational",
-                evidenceList: ["دورات تدريب القدرات والتحصيلي", "اختبارات المحاكاة التجريبية", "تحليل الدرجات والنتائج"]
+                title: "التحفيز والتكريم",
+                evidenceCount: 0,
+                colorClass: "bg-teal-50 border-teal-200 text-teal-700",
+                iconClass: "fa-solid fa-star",
+                category: "environment",
+                evidenceList: []
             },
             {
                 id: 16,
-                title: "المسؤوليات والتنبيهات",
-                evidenceCount: 47,
-                colorClass: "bg-rose-50 border-rose-200 text-rose-700",
-                iconClass: "fa-solid fa-triangle-exclamation",
-                category: "administrative",
-                evidenceList: ["سجل التكليفات والمهام", "التنبيهات الإدارية", "خطط المتابعة الطارئة"]
+                title: "توجيه إرشادي للمعلمين",
+                evidenceCount: 0,
+                colorClass: "bg-fuchsia-50 border-fuchsia-200 text-fuchsia-700",
+                iconClass: "fa-solid fa-users-gear",
+                category: "teaching",
+                evidenceList: []
             },
             {
                 id: 17,
-                title: "الاجتماعات",
-                evidenceCount: 58,
-                colorClass: "bg-orange-50 border-orange-200 text-orange-700",
-                iconClass: "fa-solid fa-people-group",
-                category: "administrative",
-                evidenceList: ["محاضر اجتماعات مجلس المدرسة", "اجتماعات الهيئة التعليمية", "اجتماعات اللجان المدرسية"]
+                title: "خطة النشاط الطلابي",
+                evidenceCount: 0,
+                colorClass: "bg-sky-50 border-sky-200 text-sky-700",
+                iconClass: "fa-solid fa-person-running",
+                category: "environment",
+                evidenceList: []
             },
             {
                 id: 18,
-                title: "الشراكة المجتمعية",
-                evidenceCount: 64,
+                title: "تقارير نشاط الأيام والمناسبات",
+                evidenceCount: 0,
+                colorClass: "bg-emerald-50 border-emerald-200 text-emerald-700",
+                iconClass: "fa-solid fa-calendar-days",
+                category: "environment",
+                evidenceList: []
+            },
+            {
+                id: 19,
+                title: "توزيع المناهج",
+                evidenceCount: 0,
+                colorClass: "bg-cyan-50 border-cyan-200 text-cyan-700",
+                iconClass: "fa-solid fa-book-open",
+                category: "teaching",
+                evidenceList: []
+            },
+            {
+                id: 20,
+                title: "مرافق المدرسة",
+                evidenceCount: 0,
+                colorClass: "bg-amber-50 border-amber-200 text-amber-700",
+                iconClass: "fa-solid fa-building",
+                category: "environment",
+                evidenceList: []
+            },
+            {
+                id: 21,
+                title: "استطلاعات الرضا",
+                evidenceCount: 0,
+                colorClass: "bg-rose-50 border-rose-200 text-rose-700",
+                iconClass: "fa-solid fa-chart-simple",
+                category: "administration",
+                evidenceList: []
+            },
+            {
+                id: 22,
+                title: "الأمن والسلامة",
+                evidenceCount: 0,
+                colorClass: "bg-orange-50 border-orange-200 text-orange-700",
+                iconClass: "fa-solid fa-shield",
+                category: "environment",
+                evidenceList: []
+            },
+            {
+                id: 23,
+                title: "ميثاق الشراكة بين المدرسة والأسرة",
+                evidenceCount: 0,
+                colorClass: "bg-indigo-50 border-indigo-200 text-indigo-700",
+                iconClass: "fa-solid fa-people-roof",
+                category: "environment",
+                evidenceList: []
+            },
+            {
+                id: 24,
+                title: "الإذاعة",
+                evidenceCount: 0,
                 colorClass: "bg-blue-50 border-blue-200 text-blue-700",
-                iconClass: "fa-solid fa-handshake",
-                category: "administrative",
-                evidenceList: ["عقود ومذكرات الشراكة", "الفعاليات المشتركة مع المجتمع", "تقارير الأثر المجتمعي"]
+                iconClass: "fa-solid fa-microphone",
+                category: "environment",
+                evidenceList: []
+            },
+            {
+                id: 25,
+                title: "إدارة الأزمات في المدرسة",
+                evidenceCount: 0,
+                colorClass: "bg-purple-50 border-purple-200 text-purple-700",
+                iconClass: "fa-solid fa-triangle-exclamation",
+                category: "administration",
+                evidenceList: []
+            },
+            {
+                id: 26,
+                title: "الخطة البديلة",
+                evidenceCount: 0,
+                colorClass: "bg-teal-50 border-teal-200 text-teal-700",
+                iconClass: "fa-solid fa-file-lines",
+                category: "administration",
+                evidenceList: []
+            },
+            {
+                id: 27,
+                title: "الخطة المقترحة لاستعداد بداية العام الدراسي",
+                evidenceCount: 0,
+                colorClass: "bg-fuchsia-50 border-fuchsia-200 text-fuchsia-700",
+                iconClass: "fa-solid fa-calendar-check",
+                category: "administration",
+                evidenceList: []
+            },
+            {
+                id: 28,
+                title: "الشكاوى والاقتراحات",
+                evidenceCount: 0,
+                colorClass: "bg-sky-50 border-sky-200 text-sky-700",
+                iconClass: "fa-solid fa-comments",
+                category: "administration",
+                evidenceList: []
+            },
+            {
+                id: 29,
+                title: "الخطة التشغيلية والتطويرية",
+                evidenceCount: 0,
+                colorClass: "bg-emerald-50 border-emerald-200 text-emerald-700",
+                iconClass: "fa-solid fa-gears",
+                category: "administration",
+                evidenceList: []
+            },
+            {
+                id: 30,
+                title: "بحوث إجرائية",
+                evidenceCount: 0,
+                colorClass: "bg-cyan-50 border-cyan-200 text-cyan-700",
+                iconClass: "fa-solid fa-magnifying-glass-chart",
+                category: "teaching",
+                evidenceList: []
+            },
+            {
+                id: 31,
+                title: "متابعة الخطة التشغيلية",
+                evidenceCount: 0,
+                colorClass: "bg-amber-50 border-amber-200 text-amber-700",
+                iconClass: "fa-solid fa-list-check",
+                category: "administration",
+                evidenceList: []
+            },
+            {
+                id: 32,
+                title: "مبادرات نوعية",
+                evidenceCount: 0,
+                colorClass: "bg-rose-50 border-rose-200 text-rose-700",
+                iconClass: "fa-solid fa-lightbulb",
+                category: "administration",
+                evidenceList: []
+            },
+            {
+                id: 33,
+                title: "متابعة عمل الوكلاء",
+                evidenceCount: 0,
+                colorClass: "bg-orange-50 border-orange-200 text-orange-700",
+                iconClass: "fa-solid fa-users-gear",
+                category: "administration",
+                evidenceList: []
+            },
+            {
+                id: 34,
+                title: "تحليل نتائج الطلاب",
+                evidenceCount: 0,
+                colorClass: "bg-indigo-50 border-indigo-200 text-indigo-700",
+                iconClass: "fa-solid fa-chart-column",
+                category: "outcomes",
+                evidenceList: []
+            },
+            {
+                id: 35,
+                title: "متابعة منصات التعلم",
+                evidenceCount: 0,
+                colorClass: "bg-blue-50 border-blue-200 text-blue-700",
+                iconClass: "fa-solid fa-laptop",
+                category: "teaching",
+                evidenceList: []
+            },
+            {
+                id: 36,
+                title: "حصر الحالات الصحية",
+                evidenceCount: 0,
+                colorClass: "bg-purple-50 border-purple-200 text-purple-700",
+                iconClass: "fa-solid fa-briefcase-medical",
+                category: "environment",
+                evidenceList: []
             }
         ];
 
@@ -612,7 +659,7 @@
                 container.appendChild(cardEl);
             });
 
-            document.getElementById('resultsCount').innerText = `${cards.length} مجال متوفر`;
+            document.getElementById('resultsCount').innerText = `${cards.length} سجل متوفر`;
         }
 
         // Filtering and search logic
@@ -642,11 +689,10 @@
 
         // Modal Handlers
         function openModal(id) {
-            if (id === 6) {
-    window.location.href = "records/leadership/";
-    return;
-}
-            const record = domainsData.find(item => item.id === id);
+            if (id === 1) {
+                window.location.href = "records/leadership/";
+                return;
+            }const record = domainsData.find(item => item.id === id);
             if (!record) return;
 
             document.getElementById('modalTitle').innerText = record.title;
